@@ -14,13 +14,6 @@ To install this module type the following:
 
 DEPENDENCIES
 
-This module requires these other modules:
-
-  WWW::Scraper::ISBN
-  WWW::Scraper::ISBN::Record
-  WWW::Scraper::ISBN::Driver
-  WWW::Mechanize
-
 For optional testing the module would like these other modules:
 
   Test::Pod
