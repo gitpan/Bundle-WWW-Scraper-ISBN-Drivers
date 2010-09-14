@@ -1,5 +1,9 @@
 Revision history for Perl extension Bundle-WWW-Scraper-ISBN-Drivers.
 
+1.04	14/09/2010
+        - added EdenBooks driver.
+        - added GoogleBooks driver.
+
 1.03	14/09/2010
         - added BookDepository driver.
         - added EmporiumBooks driver.
