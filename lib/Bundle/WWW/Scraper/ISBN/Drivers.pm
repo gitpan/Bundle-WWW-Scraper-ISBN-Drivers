@@ -3,7 +3,7 @@ package Bundle::WWW::Scraper::ISBN::Drivers;
 use strict;
 use vars qw($VERSION);
 
-$VERSION = "1.04";
+$VERSION = "1.05";
 
 1;
 
@@ -40,6 +40,8 @@ WWW::Scraper::ISBN::AmazonFR_Driver
 WWW::Scraper::ISBN::AmazonUK_Driver
 
 WWW::Scraper::ISBN::AmazonUS_Driver
+
+WWW::Scraper::ISBN::BarnesNoble_Driver
 
 WWW::Scraper::ISBN::BookDepository_Driver
 
@@ -94,6 +96,8 @@ WWW::Scraper::ISBN::TWTenlong_Driver
 WWW::Scraper::ISBN::TWYlib_Driver
 
 WWW::Scraper::ISBN::Wheelers_Driver
+
+WWW::Scraper::ISBN::WHSmith_Driver
 
 WWW::Scraper::ISBN::WordPower_Driver
 
