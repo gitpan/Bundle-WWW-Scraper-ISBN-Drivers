@@ -1,5 +1,11 @@
 Revision history for Perl extension Bundle-WWW-Scraper-ISBN-Drivers.
 
+1.06    18/11/2010
+        - added Blackwell driver.
+        - added Foyles driver.
+        - added PickABook driver.
+        - added Waterstones driver.
+
 1.05    02/11/2010
         - added BarnesNoble driver.
         - added WHSmith driver.
