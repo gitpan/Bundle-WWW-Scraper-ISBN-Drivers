@@ -1,6 +1,6 @@
 {
     "name": "Bundle-WWW-Scraper-ISBN-Drivers",
-    "version": "1.06",
+    "version": "1.07",
     "abstract": "a Bundle for WWW::Scraper::ISBN drivers",
     "author": ["Barbie <barbie@cpan.org>"],
 
@@ -19,16 +19,21 @@
     ],
 
     "prereqs" : {
+        "runtime" : {
+            "requires" : {
+                "perl": "5.006"
+            }
+        },
         "test" : {
             "requires": {
-                "Test::More": "0.45"
+                "IO::File": "0",
+                "Test::More": "0.70"
             },
             "recommends": {
-                "Test::More": "0.70",
+                "Test::CPAN::Meta": "0",
+                "Test::CPAN::Meta::JSON": "0",
                 "Test::Pod": "1.00",
-                "Test::Pod::Coverage": "0.08",
-                "Test::CPAN::Meta": "0.13",
-                "Test::JSON::Meta": "0.08"
+                "Test::Pod::Coverage": "0.08"
             }
         }
     },
@@ -36,7 +41,7 @@
     "provides": {
         "Bundle::WWW::Scraper::ISBN::Drivers": {
             "file": "lib/Bundle/WWW/Scraper/ISBN/Drivers.pm",
-            "version": "1.06"
+            "version": "1.07"
         }
     },
     "no_index": {
