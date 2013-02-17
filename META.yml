@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:                   Bundle-WWW-Scraper-ISBN-Drivers
-version:                1.07
+version:                1.08
 abstract:               a Bundle for WWW::Scraper::ISBN drivers.
 author:
   - Barbie <barbie@cpan.org>
@@ -23,10 +23,14 @@ build_requires:
 provides:
   Bundle::WWW::Scraper::ISBN::Drivers:
     file:     lib/Bundle/WWW/Scraper/ISBN/Drivers.pm
-    version:  1.07
+    version:  1.08
 no_index:
   directory:
     - t
+
+resources:
+  license:    http://www.perlfoundation.org/artistic_license_2_0
+  bugtracker: http://rt.cpan.org/Public/Dist/Display.html?Name=Bundle-WWW-Scraper-ISBN-Drivers
 
 meta-spec:
    version:   1.4

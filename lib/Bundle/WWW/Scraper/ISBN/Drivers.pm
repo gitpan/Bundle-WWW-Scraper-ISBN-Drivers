@@ -1,9 +1,10 @@
 package Bundle::WWW::Scraper::ISBN::Drivers;
 
 use strict;
+use warnings;
 use vars qw($VERSION);
 
-$VERSION = "1.07";
+$VERSION = "1.08";
 
 1;
 
@@ -31,8 +32,6 @@ WWW::Scraper::ISBN::Driver  0.18
 
 WWW::Scraper::ISBN::Record
 
-WWW::Scraper::ISBN::A1Books_Driver
-
 WWW::Scraper::ISBN::AmazonDE_Driver
 
 WWW::Scraper::ISBN::AmazonFR_Driver
@@ -48,8 +47,6 @@ WWW::Scraper::ISBN::Blackwell_Driver
 WWW::Scraper::ISBN::BookDepository_Driver
 
 WWW::Scraper::ISBN::Booktopia_Driver
-
-WWW::Scraper::ISBN::EdenBooks_Driver
 
 WWW::Scraper::ISBN::EmporiumBooks_Driver
 
@@ -133,9 +130,9 @@ and I'll add it to the list.
 
 =head1 COPYRIGHT & LICENSE
 
-  Copyright (C) 2010-2012 Barbie for Miss Barbell Productions
+  Copyright (C) 2010-2013 Barbie for Miss Barbell Productions
 
-  This module is free software; you can redistribute it and/or
+  This distribution is free software; you can redistribute it and/or
   modify it under the Artistic Licence v2.
 
 =cut
