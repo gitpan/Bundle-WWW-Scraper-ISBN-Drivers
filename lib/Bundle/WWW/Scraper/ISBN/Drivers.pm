@@ -4,7 +4,7 @@ use strict;
 use warnings;
 use vars qw($VERSION);
 
-$VERSION = "1.08";
+$VERSION = "1.09";
 
 1;
 
@@ -47,8 +47,6 @@ WWW::Scraper::ISBN::Blackwell_Driver
 WWW::Scraper::ISBN::BookDepository_Driver
 
 WWW::Scraper::ISBN::Booktopia_Driver
-
-WWW::Scraper::ISBN::EmporiumBooks_Driver
 
 WWW::Scraper::ISBN::Foyles_Driver
 

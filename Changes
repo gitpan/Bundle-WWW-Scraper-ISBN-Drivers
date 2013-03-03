@@ -1,5 +1,8 @@
 Revision history for Perl extension Bundle-WWW-Scraper-ISBN-Drivers.
 
+1.09    2013-03-03
+        - removed Emporium Books driver - site no longer online
+
 1.08    2013-02-17
         - removed A1Books driver - site no longer online
         - removed EdenBooks driver - site no longer online

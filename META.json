@@ -1,6 +1,6 @@
 {
     "name": "Bundle-WWW-Scraper-ISBN-Drivers",
-    "version": "1.08",
+    "version": "1.09",
     "abstract": "a Bundle for WWW::Scraper::ISBN drivers",
     "author": ["Barbie <barbie@cpan.org>"],
 
@@ -41,7 +41,7 @@
     "provides": {
         "Bundle::WWW::Scraper::ISBN::Drivers": {
             "file": "lib/Bundle/WWW/Scraper/ISBN/Drivers.pm",
-            "version": "1.08"
+            "version": "1.09"
         }
     },
     "no_index": {
