@@ -1,4 +1,8 @@
-Revision history for Perl extension Bundle-WWW-Scraper-ISBN-Drivers.
+Revision history for Bundle-WWW-Scraper-ISBN-Drivers
+====================================================
+
+1.10    2013-10-02
+        - added git repository links to metadata.
 
 1.09    2013-03-03
         - removed Emporium Books driver - site no longer online
