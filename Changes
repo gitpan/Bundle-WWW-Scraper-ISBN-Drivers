@@ -1,6 +1,12 @@
 Revision history for Bundle-WWW-Scraper-ISBN-Drivers
 ====================================================
 
+1.11    2014-10-31
+        - fixed license fields in META.json to be lists.
+        - added Bookstore driver.
+        - updated core ISBN modules requiments to v1.00.
+        - extended META test suite.
+
 1.10    2013-10-02
         - added git repository links to metadata.
 

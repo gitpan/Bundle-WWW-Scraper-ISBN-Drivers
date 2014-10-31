@@ -4,7 +4,7 @@ use strict;
 use warnings;
 use vars qw($VERSION);
 
-$VERSION = "1.10";
+$VERSION = "1.11";
 
 1;
 
@@ -26,11 +26,11 @@ prerequisites.
 
 =head1 CONTENTS
 
-WWW::Scraper::ISBN          0.25
+WWW::Scraper::ISBN          1.00
 
-WWW::Scraper::ISBN::Driver  0.18
+WWW::Scraper::ISBN::Driver  1.00
 
-WWW::Scraper::ISBN::Record
+WWW::Scraper::ISBN::Record  1.00
 
 WWW::Scraper::ISBN::AmazonDE_Driver
 
@@ -45,6 +45,8 @@ WWW::Scraper::ISBN::BarnesNoble_Driver
 WWW::Scraper::ISBN::Blackwell_Driver
 
 WWW::Scraper::ISBN::BookDepository_Driver
+
+WWW::Scraper::ISBN::Bookstore_Driver
 
 WWW::Scraper::ISBN::Booktopia_Driver
 
@@ -128,7 +130,7 @@ and I'll add it to the list.
 
 =head1 COPYRIGHT & LICENSE
 
-  Copyright (C) 2010-2013 Barbie for Miss Barbell Productions
+  Copyright (C) 2010-2014 Barbie for Miss Barbell Productions
 
   This distribution is free software; you can redistribute it and/or
   modify it under the Artistic Licence v2.
